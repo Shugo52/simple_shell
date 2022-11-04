@@ -7,8 +7,8 @@ int main(int ac, char **av)
 	while (av[i] != NULL)
 	{
 		write(STDOUT_FILENO, av[i], _strlen(av[i]));
+		_putchar('\n');
 		i++;
 	}
-	_putchar('\n');
 	return (0);
 }
