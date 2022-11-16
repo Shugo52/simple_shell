@@ -10,4 +10,9 @@
 #include <fcntl.h>
 #include <string.h>
 
+#define UNUSED(x) (void)(x)
+
+int _strlen(char *s);
+int _putchar(char c);
+void print_number(int n);
 #endif
